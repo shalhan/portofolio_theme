@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e7e8;
+    font-size: 10px;
+    letter-spacing: 1px
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar-default{
+    background-color: #e6e7e8;
+}
+
+.nav-stacked li{
+    text-align: right;
+}
+
+.nav-stacked li:first-child{
+   padding: 20px 40px 3px;
+}
+
+.nav-stacked li:nth-child(2){
+   padding: 3px 40px 20px;
+}
+
+.nav-stacked>li>a{
+    color: black;
+    padding: 0;
+}
+
+.nav-stacked>li>a:hover{
+    background-color: transparent;
+}
+
+.navbar-brand{
+    padding: 15px;
+    height: 70px;
+}
+
+.section-header{
+    margin: 20px 0;
+    padding-left: 15px;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+.box{
+    margin-top: 40px;
+}
