@@ -40,7 +40,7 @@ img{
 }
 
 .section-header{
-    margin: 20px 0;
+    margin: 20px 0 60px;
     padding-left: 15px;
 }
 
@@ -48,6 +48,21 @@ img{
     margin-top: 10px;
 }
 
-.box{
-    margin-top: 40px;
+.carousel-indicators{
+    position:relative;
+    top:594px;
+    left: 96%; 
+}
+
+.carousel{
+    padding-left: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #8c8c8c;
+}
+
+.carousel-indicators li{
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
 }
