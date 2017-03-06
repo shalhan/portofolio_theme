@@ -5,9 +5,9 @@ body{
     letter-spacing: 0.5px
 }
 
-a:hover, a:visited{
+a:hover, a:visited, a:active, a:focus{
     text-decoration: none;
-    color: inherit;
+    color: #444;
 }
 
 p{
@@ -44,8 +44,9 @@ img{
     font-size: 12px;
 }
 
-.nav-stacked>li>a:hover{
+.nav-stacked>li>a:hover, .nav-stacked>li>a:active {
     background-color: transparent;
+    color: #666;
 }
 
 .navbar-brand{
@@ -54,9 +55,10 @@ img{
 }
 
 .section-header{
-    margin: 20px 0 60px;
+    margin: 20px 0 20px;
     padding-left: 15px;
 }
+
 
 .title{
     margin-top: 10px;
@@ -64,6 +66,10 @@ img{
 
 .box{
     margin-bottom: 50px;
+}
+
+#project .section-header{
+    font-size: 12px;
 }
 
 .carousel-indicators{
@@ -92,4 +98,18 @@ img{
 
 .detail p{
     font-size: 12px;
+    line-height: 2em;
+}
+
+/* 24 inch iMac ----------- */
+@media only screen and (min-width : 1600px) {
+	body{
+        font-size: 12px;
+    }
+    .nav-stacked>li>a{
+        font-size: 14px;
+    }
+    .detail p{
+        font-size: 14px;
+    }
 }
